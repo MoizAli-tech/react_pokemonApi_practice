@@ -1,0 +1,13 @@
+
+.card{
+    animation: vertily 1s ease;
+  }
+  
+.mini-cards li{
+    text-align: left;
+}
+
+.mini-cards:hover{
+    transform:scale(1.1,1.1);
+}
+

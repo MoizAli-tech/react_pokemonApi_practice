@@ -1,0 +1,35 @@
+*{
+  transition: all 0.5s linear;
+  box-sizing: border-box;
+}
+
+@keyframes Lefty {
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes vertily {
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0%);
+  }
+}
+
+.app{
+  animation: Lefty 1s ease;
+}
+.main{
+  background-color: #F9F6EE;
+  
+}
+
+.Error{
+ 
+  animation: vertily 1s ease;
+}
